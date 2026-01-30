@@ -1,6 +1,9 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',      
+    output: 'export',      // هذا السطر هو الذي يجبره على إنشاء مجلد out
     images: {
-      unoptimized: true,   
+      unoptimized: true,   // هذا ضروري عشان الصور تظهر في Netlify
     },
   };
+  
+  module.exports = nextConfig;

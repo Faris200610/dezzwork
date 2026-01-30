@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    # هذا السطر يمنع البلاجن من التدخل في ملفاتنا الثابتة
+    onPreBuild = "return"
