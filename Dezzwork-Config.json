@@ -1,0 +1,95 @@
+{
+    "meta": {
+      "title": "Dezzwork | وظيفتك تجيلك لحد عندك",
+      "description": "تنبيهات وخدمات رقمية فورية عبر واتساب."
+    },
+    "theme": {
+      "mode": "light",
+      "palette": {
+        "background_primary": "#FFFFFF",
+        "background_secondary": "#F5F7FA",
+        "text_primary": "#111827",
+        "text_secondary": "#4B5563",
+        "accent_main": "#25D366", 
+        "accent_hover": "#128C7E",
+        "border_color": "#E5E7EB"
+      },
+      "typography": {
+        "font_heading": "'Cairo', sans-serif",
+        "font_body": "'IBM Plex Sans Arabic', sans-serif"
+      }
+    },
+    "navigation": [
+      { "label": "الرئيسية", "href": "#hero" },
+      { "label": "كيف تعمل؟", "href": "#how-it-works" },
+      { "label": "الأسعار", "href": "#pricing" },
+      { "label": "دخول المشتركين", "href": "#login", "style": "outline" }
+    ],
+    "sections": [
+      {
+        "id": "hero",
+        "type": "split_hero_mobile_focus",
+        "content": {
+          "badge": "خدمة تابعة لشركة Dezloop",
+          "headline": "وظيفتك وتخليص خدماتك.. كله على واتساب.",
+          "subheadline": "لا داعي للبحث الطويل. اشترك الآن واحصل على تنبيهات فورية بالوظائف المناسبة لتخصصك، وخدمات رقمية تنجزها بضغطة زر.",
+          "cta": {
+            "text": "اشترك الآن (٢٠ ريال/شهر)",
+            "link": "https://wa.me/966573621277", 
+            "icon": "message-circle"
+          },
+          "image_mockup": {
+            "type": "mobile_chat_mockup",
+            "screen_content": "notification_alert.png",
+            "alt": "Dezzwork WhatsApp Alert"
+          }
+        }
+      },
+      {
+        "id": "features",
+        "type": "three_column_features",
+        "headline": "لماذا Dezzwork؟",
+        "items": [
+          {
+            "title": "تنبيهات فورية",
+            "desc": "الإشعارات تصلك بمجرد نزول الوظيفة. كن أول المتقدمين.",
+            "icon": "bell"
+          },
+          {
+            "title": "تخصيص كامل",
+            "desc": "تصلك فقط الوظائف التي تناسب مجالك وخبرتك.",
+            "icon": "filter"
+          },
+          {
+            "title": "سهولة تامة",
+            "desc": "بدون مواقع معقدة أو تسجيل دخول. كل شيء يتم عبر شات واتساب.",
+            "icon": "message-square"
+          }
+        ]
+      },
+      {
+        "id": "pricing",
+        "type": "simple_pricing_card",
+        "content": {
+          "price": "٢٠",
+          "currency": "ريال / شهرياً",
+          "features": ["تنبيهات وظائف غير محدودة", "دعم فني مباشر", "إلغاء الاشتراك في أي وقت"],
+          "cta_text": "ابدأ التجربة"
+        }
+      },
+      {
+        "id": "contact_help",
+        "type": "banner_cta",
+        "content": {
+          "headline": "عندك استفسار؟",
+          "subheadline": "فريق الدعم جاهز للرد عليك فوراً عبر واتساب.",
+          "phone": "0573621277",
+          "action_text": "تحدث معنا"
+        }
+      }
+    ],
+    "footer": {
+      "copyright": "© 2025 Dezzwork. Powered by Dezloop.",
+      "links": ["الشروط والأحكام", "سياسة الخصوصية"]
+    }
+  }
