@@ -26,7 +26,7 @@ export default function DezzworkLandingPage() {
             <span className="inline-flex items-center gap-2 bg-whatsapp/10 text-whatsapp px-4 py-2 rounded-full text-sm font-medium">
               خدمة تابعة لشركة{' '}
               <a 
-                href="https://dezloop.netlify.app" 
+                href="https://deezloop.netlify.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="font-bold underline hover:text-whatsapp-hover transition-colors"
@@ -194,7 +194,7 @@ export default function DezzworkLandingPage() {
             <p className="text-gray-400 mb-4">
               © 2025 Dezzwork. A product of{' '}
               <a 
-                href="https://dezloop.netlify.app" 
+                href="https://deezloop.netlify.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-whatsapp hover:text-whatsapp-hover font-medium underline transition-colors"
