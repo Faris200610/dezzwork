@@ -41,7 +41,7 @@ export default function DezzworkLandingPage() {
 
               {/* CTA Button */}
               <a 
-                href="https://checkout.tap.company/?mode=page&themeMode=&language=en&token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY5N2M3MzQ2YzY3OTdhNTQ3ZjYzNTYyOCJ9.mymTkpzRwuq1vdiVavTZ1-p4yiTWPK78GSA0LtvosRc"
+                href="https://checkout.tap.company/?mode=page&themeMode=&language=en&token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY5N2Q0N2E0YzY3OTdhNTQ3ZjYzODUwNCJ9.zFMHR8L8M9rLjz748w9Jxw8xi-Q81FS0ljknlz1JzZk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-whatsapp hover:bg-whatsapp-hover text-white font-bold px-8 py-4 rounded-2xl text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
@@ -146,7 +146,7 @@ export default function DezzworkLandingPage() {
 
               {/* CTA Button */}
               <a
-                href="https://checkout.tap.company/?mode=page&themeMode=&language=en&token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY5N2M3MzQ2YzY3OTdhNTQ3ZjYzNTYyOCJ9.mymTkpzRwuq1vdiVavTZ1-p4yiTWPK78GSA0LtvosRc"
+                href="https://checkout.tap.company/?mode=page&themeMode=&language=en&token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY5N2Q0N2E0YzY3OTdhNTQ3ZjYzODUwNCJ9.zFMHR8L8M9rLjz748w9Jxw8xi-Q81FS0ljknlz1JzZk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-whatsapp hover:bg-whatsapp-hover text-white font-bold py-4 rounded-2xl text-lg text-center transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
