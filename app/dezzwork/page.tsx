@@ -24,7 +24,15 @@ export default function DezzworkLandingPage() {
           {/* Badge */}
           <div className="flex justify-center mb-8">
             <span className="inline-flex items-center gap-2 bg-whatsapp/10 text-whatsapp px-4 py-2 rounded-full text-sm font-medium">
-              خدمة تابعة لشركة Dezloop
+              خدمة تابعة لشركة{' '}
+              <a 
+                href="https://dezloop.netlify.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-bold underline hover:text-whatsapp-hover transition-colors"
+              >
+                Dezloop
+              </a>
             </span>
           </div>
 
@@ -184,7 +192,16 @@ export default function DezzworkLandingPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-gray-400 mb-4">
-              © 2025 Dezzwork. Powered by Dezloop.
+              © 2025 Dezzwork. A product of{' '}
+              <a 
+                href="https://dezloop.netlify.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-whatsapp hover:text-whatsapp-hover font-medium underline transition-colors"
+              >
+                Dezloop
+              </a>
+              {' '}Company.
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors">
